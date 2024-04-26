@@ -1,0 +1,35 @@
+{
+  "name": "swu-counter",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "prettier": "prettier \"**/*.+(js|ts|json|jsx|tsx)\" --write"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "clsx": "^2.1.0",
+    "expo": "^50.0.17",
+    "expo-haptics": "~12.8.1",
+    "expo-keep-awake": "~12.8.2",
+    "expo-status-bar": "~1.11.1",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-native": "0.73.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.4",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.69",
+    "@types/react-test-renderer": "^18.0.7",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.4.3"
+  },
+  "private": true
+}
